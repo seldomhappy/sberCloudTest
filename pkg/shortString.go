@@ -4,14 +4,12 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-	"time"
 )
 
 func Get(str string) string {
 	var sb strings.Builder
 	stringOfRuneSlice := []rune(str)
 	count := 0
-	time.Sleep(2 * time.Second)
 	l := len(stringOfRuneSlice)
 	for i := 0; ; i++ {
 		count++
