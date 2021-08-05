@@ -18,8 +18,7 @@ func TestShortString(t *testing.T) {
 	for _, val := range testFlags {
 		res := shortString.Get(val.in)
 		if res != val.out {
-			t.Errorf("GetShortString(%v) = %s, expected %s",
-				val.in, res, val.out)
+			t.Errorf("GetShortString(%v) = %s, expected %s", val.in, res, val.out)
 		}
 	}
 }

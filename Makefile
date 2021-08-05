@@ -1,7 +1,7 @@
 .PHONY: test
 .SILENT:
 
-help:   ## show this help
+help:
 	@echo 'make run - сборка и выполнение приложения'
 	@echo 'make build - сборка приложения в дирректорию ./.bin'
 	@echo 'make test - запуск тестов'
